@@ -227,7 +227,7 @@ header{
   .gallery{
     display: none;
   }
-  .id{
+  #gallery{
     display: none;
   }
 } 
