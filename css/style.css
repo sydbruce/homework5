@@ -237,10 +237,10 @@ header{
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
 @media screen and (prefers-reduced-motion: reduce){
-  #logo{
+ #logo{
     -webkit-animation-name: logo_wiggle;
     animation-name: logo_wiggle;
     -webkit-animation-duration: 0s;
     animation-duration: 0s;
-  }
+ }
 }
