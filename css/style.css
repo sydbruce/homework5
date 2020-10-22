@@ -225,10 +225,10 @@ header{
   .pricing{
     align-items: flex-start;
   }
-  .gallery{
+  #gallery{
     display: none;
   }
-  #gallery{
+  .gallery{
     display: none;
   }
 } 
