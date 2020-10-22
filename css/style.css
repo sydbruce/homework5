@@ -228,7 +228,7 @@ header{
   .gallery{
     display: none;
   }
-  .id gallery{
+  #gallery{
     display: none;
   }
 } 
