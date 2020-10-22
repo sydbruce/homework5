@@ -69,6 +69,7 @@ footer{
    /*Your code here.*/
    animation-duration: 3s;
    animation-name: logo_wiggle;
+   -webkit-animation-name: logo_wiggle;
  
 }
 
@@ -235,8 +236,11 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
-@media screen and (prefers-reduced-motion){
-  .logo{
-    animation: none;
+@media screen and (prefers-reduced-motion: reduce){
+  #logo{
+    -webkit-animation-name: logo_wiggle;
+    animation-name: logo_wiggle;
+    -webkit-animation-duration: 0s;
+    animation-duration: 0s;
   }
 }
