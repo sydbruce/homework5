@@ -67,7 +67,7 @@ footer{
 
 #logo{
    /*Your code here.*/
-   animation-duration: 15s;
+   animation-duration: 3s;
    animation-name: logo_wiggle;
  
 }
